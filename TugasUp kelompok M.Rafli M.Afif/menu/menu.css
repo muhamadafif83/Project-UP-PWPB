@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-color: #00916E;
+}
+
+/* navbar */
+.container{
+    display: flex;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    padding: 30px 0 0 0;
+    background-color: #FFCF00;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    border-radius:0 60px 0 0 ;
+    color: rgb(0, 0, 0);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 30px;
+}
+
+nav ul li{
+    padding: 20px;
+    margin-top: 15px;
+    font-weight: 1000;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+nav ul li:hover{
+    transform: scale(0.95);
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.smk{
+    font-family: 'Jua', sans-serif;
+    padding-top: 20px;
+    background-color: #EE6123;
+    height: 50px;
+    width: 10em;
+    border-radius: 0 0 20px 20px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20em;
+    padding: 10px;
+    border: 1px solid;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Jua', sans-serif;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 53em;
+    padding: 10px;
+    border: 1px solid;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Jua', sans-serif;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: 20em;
+    padding: 10px;
+    border: 1px solid;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Jua', sans-serif;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 380px;
+    margin-left: 20em;
+    padding: 10px;
+    border: 1px solid;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Jua', sans-serif;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: 53em;
+    padding: 10px;
+    border: 1px solid;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Jua', sans-serif;
+}
+
+.container6{
+    display: flex;
+    flex-direction: row;
+    margin-top: 380px;
+    margin-left: 53em;
+    padding: 10px;
+    border: 1px solid;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Jua', sans-serif;
+}
+
+.gambar1{
+    padding-right: 20px;
+}
+
+table tr td{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
